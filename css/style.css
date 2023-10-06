@@ -78,6 +78,7 @@ h2 {
   color: var(--main-color);
   padding-bottom: 40px;
   margin-top: 0;
+  text-align: center;
 }
 
 h3 {
@@ -119,29 +120,41 @@ p {
 
 .sectionLinearGradientBackground {
   background: linear-gradient(to right, var(--main-color), var(--second-color));
+  width: 1440px;
+  height: 596px;
+  top: 1271px;
 }
 
 .whiteContentSection h2,
 .whiteContentSection h3,
 .whiteContentSection p {
   color: white;
+  text-align: center;
 }
 
 .textCenter {
   text-align: center;
 }
-h2,
+
 h3 {
   font-family: "Archivo", sans-serif;
   font-style: normal;
 }
 
 h2 {
+  font-family: "Archivo", sans-serif;
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 38.08;
   text-align: center;
 }
 /***************/
 .sectionLightGreyBackground {
   background-color: var(--light-grey-color);
+  width: 1440px;
+  height: 503px;
+  top: 1863px;
+  left: 1px;
 }
 
 .button {
@@ -210,6 +223,7 @@ h2 {
   font-weight: 900;
   font-size: 35px;
   line-height: 75px;
+  text-align: center;
   color: white;
 }
 
@@ -239,6 +253,7 @@ h2 {
   color: var(--main-color);
   padding-bottom: 40px;
   margin-top: 0;
+  text-align: center;
 }
 
 h3 {
@@ -286,6 +301,7 @@ p {
 .whiteContentSection h3,
 .whiteContentSection p {
   color: white;
+  text-align: center;
 }
 
 .textCenter {
