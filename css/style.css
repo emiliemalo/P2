@@ -119,7 +119,12 @@ p {
 }
 
 .sectionLinearGradientBackground {
-  background: linear-gradient(to right, var(--main-color), var(--second-color));
+  background: linear-gradient(
+      to right,
+      var(--main-color) 100%,
+      var(--second-color)
+    )
+    100%;
   width: 1440px;
   height: 596px;
   top: 1271px;
@@ -354,11 +359,16 @@ h2 {
 .buttonMainColor {
   color: var(--main-color);
   border-color: var(--main-color);
+  border-radius: 39px;
 }
 
 .buttonSecondColor {
   color: var(--second-color);
   border-color: var(--second-color);
+  border-radius: 38px;
+  font-weight: 800;
+  border-width: 3px;
+  color: #cd487b;
 }
 
 .buttonRounded {
